@@ -1,4 +1,4 @@
-package com.nmz.common.utils;
+package com.nmz.accounting.modules.common.utils;
 
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.beans.BeansException;

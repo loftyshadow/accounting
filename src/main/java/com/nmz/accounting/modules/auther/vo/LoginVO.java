@@ -1,4 +1,4 @@
-package com.nmz.accounting.auther.vo;
+package com.nmz.accounting.modules.auther.vo;
 
 /**
  * @Description: 登陆成功返回Token

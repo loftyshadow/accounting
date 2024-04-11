@@ -1,4 +1,4 @@
-package com.nmz.accounting.auther.config;
+package com.nmz.accounting.modules.auther.config;
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.JsonTypeInfo;

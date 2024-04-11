@@ -1,6 +1,7 @@
-package com.nmz.accounting.auther.mapper;
+package com.nmz.accounting.modules.auther.mapper;
 
-import com.nmz.authserver.entity.SysUserRoleEntity;
+
+import com.nmz.accounting.modules.auther.entity.SysUserRoleEntity;
 import org.springframework.data.querydsl.QuerydslPredicateExecutor;
 import org.springframework.data.repository.CrudRepository;
 

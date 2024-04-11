@@ -1,4 +1,4 @@
-package com.nmz.accounting.auther.entity;
+package com.nmz.accounting.modules.auther.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import org.springframework.security.core.GrantedAuthority;

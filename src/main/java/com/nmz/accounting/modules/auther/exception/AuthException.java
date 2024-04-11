@@ -1,6 +1,6 @@
-package com.nmz.accounting.auther.exception;
+package com.nmz.accounting.modules.auther.exception;
 
-import com.nmz.common.exception.BaseException;
+import com.nmz.accounting.modules.common.exception.BaseException;
 import lombok.Getter;
 
 import static org.springframework.http.HttpStatus.BAD_REQUEST;

@@ -1,10 +1,11 @@
-package com.nmz.accounting.auther.controller;
+package com.nmz.accounting.modules.auther.controller;
 
-import com.nmz.authserver.entity.SysUserEntity;
-import com.nmz.authserver.service.AuthService;
-import com.nmz.authserver.vo.LoginVO;
-import com.nmz.authserver.vo.RouteRecordRawVO;
-import com.nmz.common.result.Result;
+
+import com.nmz.accounting.modules.auther.entity.SysUserEntity;
+import com.nmz.accounting.modules.auther.service.AuthService;
+import com.nmz.accounting.modules.auther.vo.LoginVO;
+import com.nmz.accounting.modules.auther.vo.RouteRecordRawVO;
+import com.nmz.accounting.modules.common.result.Result;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;
@@ -16,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
-import static com.nmz.authserver.utils.SecurityUtil.getUserIdBySecurity;
+import static com.nmz.accounting.modules.auther.utils.SecurityUtil.getUserIdBySecurity;
 
 
 /**

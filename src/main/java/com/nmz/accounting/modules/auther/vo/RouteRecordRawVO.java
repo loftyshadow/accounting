@@ -1,6 +1,6 @@
-package com.nmz.accounting.auther.vo;
+package com.nmz.accounting.modules.auther.vo;
 
-import com.nmz.authserver.entity.SysMenuEntity;
+import com.nmz.accounting.modules.auther.entity.SysMenuEntity;
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.AllArgsConstructor;
 import lombok.Data;

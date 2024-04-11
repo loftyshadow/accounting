@@ -1,4 +1,4 @@
-package com.nmz.accounting.auther.config;
+package com.nmz.accounting.modules.auther.config;
 
 import com.querydsl.jpa.impl.JPAQueryFactory;
 import jakarta.persistence.EntityManager;

@@ -1,4 +1,4 @@
-package com.nmz.accounting.auther.entity;
+package com.nmz.accounting.modules.auther.entity;
 
 import lombok.Data;
 

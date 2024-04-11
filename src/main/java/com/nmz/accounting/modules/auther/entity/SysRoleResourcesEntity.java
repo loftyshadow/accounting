@@ -1,4 +1,4 @@
-package com.nmz.accounting.auther.entity;
+package com.nmz.accounting.modules.auther.entity;
 
 import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.persistence.Column;

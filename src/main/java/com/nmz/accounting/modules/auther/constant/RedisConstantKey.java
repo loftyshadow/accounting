@@ -1,4 +1,4 @@
-package com.nmz.accounting.auther.constant;
+package com.nmz.accounting.modules.auther.constant;
 
 /**
  * @Description: RedisKey

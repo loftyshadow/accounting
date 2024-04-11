@@ -1,6 +1,7 @@
-package com.nmz.accounting.auther.mapper;
+package com.nmz.accounting.modules.auther.mapper;
 
-import com.nmz.authserver.entity.SysMenuEntity;
+
+import com.nmz.accounting.modules.auther.entity.SysMenuEntity;
 import org.springframework.data.querydsl.QuerydslPredicateExecutor;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;

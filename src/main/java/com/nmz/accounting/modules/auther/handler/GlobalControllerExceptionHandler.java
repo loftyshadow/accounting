@@ -1,8 +1,9 @@
-package com.nmz.accounting.auther.handler;
+package com.nmz.accounting.modules.auther.handler;
 
-import com.nmz.authserver.exception.AuthException;
-import com.nmz.common.exception.BaseException;
-import com.nmz.common.result.Result;
+
+import com.nmz.accounting.modules.auther.exception.AuthException;
+import com.nmz.accounting.modules.common.exception.BaseException;
+import com.nmz.accounting.modules.common.result.Result;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.validation.BindException;

@@ -1,4 +1,4 @@
-package com.nmz.common.result;
+package com.nmz.accounting.modules.common.result;
 
 import org.springframework.http.HttpStatus;
 

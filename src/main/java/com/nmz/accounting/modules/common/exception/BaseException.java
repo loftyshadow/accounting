@@ -1,4 +1,4 @@
-package com.nmz.common.exception;
+package com.nmz.accounting.modules.common.exception;
 
 import lombok.Getter;
 

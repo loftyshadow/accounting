@@ -1,10 +1,11 @@
-package com.nmz.accounting.auther.config;
+package com.nmz.accounting.modules.auther.config;
 
-import com.nmz.authserver.entity.QSysResourceEntity;
-import com.nmz.authserver.entity.QSysRoleResourcesEntity;
-import com.nmz.authserver.entity.QSysUserEntity;
-import com.nmz.authserver.entity.QSysUserRoleEntity;
-import com.nmz.authserver.utils.SecurityUtil;
+
+import com.nmz.accounting.modules.auther.entity.QSysResourceEntity;
+import com.nmz.accounting.modules.auther.entity.QSysRoleResourcesEntity;
+import com.nmz.accounting.modules.auther.entity.QSysUserEntity;
+import com.nmz.accounting.modules.auther.entity.QSysUserRoleEntity;
+import com.nmz.accounting.modules.auther.utils.SecurityUtil;
 import com.querydsl.jpa.impl.JPAQueryFactory;
 import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;

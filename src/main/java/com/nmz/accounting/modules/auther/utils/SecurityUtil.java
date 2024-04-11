@@ -1,4 +1,4 @@
-package com.nmz.accounting.auther.utils;
+package com.nmz.accounting.modules.auther.utils;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.security.core.context.SecurityContextHolder;

@@ -1,6 +1,6 @@
-package com.nmz.accounting.auther.filter;
+package com.nmz.accounting.modules.auther.filter;
 
-import com.nmz.common.utils.JwtUtils;
+import com.nmz.accounting.modules.common.utils.JwtUtils;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

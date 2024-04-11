@@ -1,9 +1,9 @@
-package com.nmz.accounting.auther.service;
+package com.nmz.accounting.modules.auther.service;
 
-import com.nmz.authserver.entity.SysUserEntity;
-import com.nmz.authserver.vo.LoginVO;
-import com.nmz.authserver.vo.RouteRecordRawVO;
-import com.nmz.common.result.Result;
+import com.nmz.accounting.modules.auther.entity.SysUserEntity;
+import com.nmz.accounting.modules.auther.vo.LoginVO;
+import com.nmz.accounting.modules.auther.vo.RouteRecordRawVO;
+import com.nmz.accounting.modules.common.result.Result;
 
 import java.util.List;
 

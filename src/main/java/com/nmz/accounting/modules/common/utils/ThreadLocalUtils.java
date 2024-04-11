@@ -1,4 +1,4 @@
-package com.nmz.common.utils;
+package com.nmz.accounting.modules.common.utils;
 
 import java.util.HashMap;
 import java.util.Map;

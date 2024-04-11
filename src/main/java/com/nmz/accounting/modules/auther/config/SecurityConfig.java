@@ -1,9 +1,10 @@
-package com.nmz.accounting.auther.config;
+package com.nmz.accounting.modules.auther.config;
 
-import com.nmz.authserver.entity.LoginUser;
-import com.nmz.authserver.entity.SysUserEntity;
-import com.nmz.authserver.filter.JwtAuthenticationTokenFilter;
-import com.nmz.authserver.mapper.SysUserRepository;
+
+import com.nmz.accounting.modules.auther.entity.LoginUser;
+import com.nmz.accounting.modules.auther.entity.SysUserEntity;
+import com.nmz.accounting.modules.auther.filter.JwtAuthenticationTokenFilter;
+import com.nmz.accounting.modules.auther.mapper.SysUserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -19,7 +20,7 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 
 import java.util.Objects;
 
-import static com.nmz.authserver.exception.AuthException.USER_NAME_OR_PASSWORD_ERROR;
+import static com.nmz.accounting.modules.auther.exception.AuthException.USER_NAME_OR_PASSWORD_ERROR;
 import static org.springframework.security.config.Customizer.withDefaults;
 
 @EnableWebSecurity

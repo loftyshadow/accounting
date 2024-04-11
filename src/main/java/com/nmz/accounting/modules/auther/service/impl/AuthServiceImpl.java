@@ -1,18 +1,18 @@
-package com.nmz.accounting.auther.service.impl;
+package com.nmz.accounting.modules.auther.service.impl;
 
-import com.nmz.authserver.entity.LoginUser;
-import com.nmz.authserver.entity.QSysMenuEntity;
-import com.nmz.authserver.entity.QSysRoleMenuEntity;
-import com.nmz.authserver.entity.SysMenuEntity;
-import com.nmz.authserver.entity.SysUserEntity;
-import com.nmz.authserver.mapper.SysMenuRepository;
-import com.nmz.authserver.mapper.SysUserRoleRepository;
-import com.nmz.authserver.service.AuthService;
-import com.nmz.authserver.vo.LoginVO;
-import com.nmz.authserver.vo.RouteRecordRawVO;
-import com.nmz.common.result.Result;
-import com.nmz.common.utils.JacksonUtils;
-import com.nmz.common.utils.JwtUtils;
+import com.nmz.accounting.modules.auther.entity.LoginUser;
+import com.nmz.accounting.modules.auther.entity.QSysMenuEntity;
+import com.nmz.accounting.modules.auther.entity.QSysRoleMenuEntity;
+import com.nmz.accounting.modules.auther.entity.SysMenuEntity;
+import com.nmz.accounting.modules.auther.entity.SysUserEntity;
+import com.nmz.accounting.modules.auther.mapper.SysMenuRepository;
+import com.nmz.accounting.modules.auther.mapper.SysUserRoleRepository;
+import com.nmz.accounting.modules.auther.service.AuthService;
+import com.nmz.accounting.modules.auther.vo.LoginVO;
+import com.nmz.accounting.modules.auther.vo.RouteRecordRawVO;
+import com.nmz.accounting.modules.common.result.Result;
+import com.nmz.accounting.modules.common.utils.JacksonUtils;
+import com.nmz.accounting.modules.common.utils.JwtUtils;
 import com.querydsl.core.types.Predicate;
 import com.querydsl.jpa.impl.JPAQueryFactory;
 import lombok.RequiredArgsConstructor;
@@ -27,10 +27,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
-import static com.nmz.authserver.constant.RedisConstantKey.REDIS_LOGIN_KEY;
-import static com.nmz.authserver.constant.RedisConstantKey.REDIS_USER_MENU_KEY;
-import static com.nmz.authserver.exception.AuthException.CERTIFICATION_FAILED;
-import static com.nmz.common.exception.BaseException.BAD_PARAMETER;
+import static com.nmz.accounting.modules.auther.constant.RedisConstantKey.REDIS_LOGIN_KEY;
+import static com.nmz.accounting.modules.auther.constant.RedisConstantKey.REDIS_USER_MENU_KEY;
+import static com.nmz.accounting.modules.auther.exception.AuthException.CERTIFICATION_FAILED;
+import static com.nmz.accounting.modules.common.exception.BaseException.BAD_PARAMETER;
+
 
 /**
  * @Description:
