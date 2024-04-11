@@ -1,0 +1,10 @@
+spring:
+    application:
+        name: accounting
+    config:
+        import:
+        - classpath:config/db.yml
+        - classpath:config/redis.yml
+        - classpath:config/jpa.yml
+server:
+    port: 9080

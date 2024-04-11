@@ -1,0 +1,16 @@
+spring:
+#  sql:
+#    init:
+#      data-locations: classpath:config/init.sql
+  #      mode: always
+  jpa:
+    show-sql: true
+  datasource:
+    #    &allowMultiQueries=true 批量执行sql（mybatis中一个方法对应xml可以写多个sql语句）
+    #    &rewriteBatchedStatements=true 执行batch插入
+    url: jdbc:p6spy:postgresql://192.168.1.44:5432/accounting
+    username: postgres
+    password: 123456
+    #    driver-class-name: com.mysql.cj.jdbc.Driver
+    #sql分析
+    driver-class-name: com.p6spy.engine.spy.P6SpyDriver
