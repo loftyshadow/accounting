@@ -31,8 +31,8 @@ public class JwtAuthenticationTokenFilter extends OncePerRequestFilter {
             // token验证失败
             return;
         }
-        // 存入SecurityContextHolder,principal设置为userId
-        UsernamePasswordAuthenticationToken authenticationToken = new UsernamePasswordAuthenticationToken(userId, null, null);
+        // 存入SecurityContextHolder,principal设置为userId, credentials为用户名
+        UsernamePasswordAuthenticationToken authenticationToken = new UsernamePasswordAuthenticationToken(userId, JwtUtils.getUserName(token), null);
         SecurityContextHolder.getContext().setAuthentication(authenticationToken);
         // 放行
         filterChain.doFilter(request, response);

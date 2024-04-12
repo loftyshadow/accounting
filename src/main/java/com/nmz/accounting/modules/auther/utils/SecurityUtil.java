@@ -22,6 +22,10 @@ public class SecurityUtil {
     public static Long getUserIdBySecurity() {
         return (Long) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
     }
+    // 通过Security获取用户id
+    public static String getUserNameBySecurity() {
+        return (String) SecurityContextHolder.getContext().getAuthentication().getCredentials();
+    }
 
     public static String md5(String data) {
         try {
